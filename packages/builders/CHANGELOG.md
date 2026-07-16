@@ -1,5 +1,57 @@
 # @workflow/builders
 
+## 5.0.0-beta.35
+
+### Patch Changes
+
+- [#2266](https://github.com/vercel/workflow/pull/2266) [`a00d169`](https://github.com/vercel/workflow/commit/a00d16947085f8e94cf191c4d8850121cf201a94) Thanks [@VaguelySerious](https://github.com/VaguelySerious)! - `WORKFLOW_SEQUENTIAL_REPLAYS` is configured only by its own environment variable.
+
+- Updated dependencies [[`f72184d`](https://github.com/vercel/workflow/commit/f72184dc836cb5e04ae689e99802f6fa869f487a), [`a00d169`](https://github.com/vercel/workflow/commit/a00d16947085f8e94cf191c4d8850121cf201a94), [`a00d169`](https://github.com/vercel/workflow/commit/a00d16947085f8e94cf191c4d8850121cf201a94), [`1933e29`](https://github.com/vercel/workflow/commit/1933e294cf938fb2314f45047033f8720ccf442b), [`6b8efd5`](https://github.com/vercel/workflow/commit/6b8efd58ce4829648f410e483bf42935dc5dcd1e), [`fd107b9`](https://github.com/vercel/workflow/commit/fd107b9c33db397b513ef134f458a1083bde7d98)]:
+  - @workflow/world-local@5.0.0-beta.29
+  - @workflow/core@5.0.0-beta.35
+  - @workflow/world-vercel@5.0.0-beta.31
+  - @workflow/errors@5.0.0-beta.11
+
+## 5.0.0-beta.34
+
+### Patch Changes
+
+- Updated dependencies [[`9242ddb`](https://github.com/vercel/workflow/commit/9242ddb02c5df6046bf0d93cc5e520eedcfd7471)]:
+  - @workflow/core@5.0.0-beta.34
+  - @workflow/world-vercel@5.0.0-beta.30
+
+## 5.0.0-beta.33
+
+### Minor Changes
+
+- [#2193](https://github.com/vercel/workflow/pull/2193) [`a4d8de0`](https://github.com/vercel/workflow/commit/a4d8de03e6381d170ccf0c76ed77e05dc5545456) Thanks [@VaguelySerious](https://github.com/VaguelySerious)! - Add opt-in `WORKFLOW_SEQUENTIAL_REPLAYS` env var (also enabled by the `WORKFLOW_SAFE_MODE=1` umbrella flag when not set explicitly). When set to `1`, flow (orchestrator) routes are limited to one invocation per run at a time via a per-run queue topic and `maxConcurrency: 1` on the flow trigger. Step routes are unaffected.
+
+### Patch Changes
+
+- Updated dependencies [[`f2be954`](https://github.com/vercel/workflow/commit/f2be954bb7fee078bc4b78118edaa157130fa362), [`9da2d76`](https://github.com/vercel/workflow/commit/9da2d762604c2b73eb39f07fc0b069aea643e18d), [`a4d8de0`](https://github.com/vercel/workflow/commit/a4d8de03e6381d170ccf0c76ed77e05dc5545456), [`c31e30c`](https://github.com/vercel/workflow/commit/c31e30caacab20c0d9c0df38349929ae1e0aebdf), [`9da2d76`](https://github.com/vercel/workflow/commit/9da2d762604c2b73eb39f07fc0b069aea643e18d)]:
+  - @workflow/world-vercel@5.0.0-beta.29
+  - @workflow/core@5.0.0-beta.33
+  - @workflow/errors@5.0.0-beta.10
+  - @workflow/world-local@5.0.0-beta.28
+
+## 5.0.0-beta.32
+
+### Patch Changes
+
+- Updated dependencies [[`4a43e39`](https://github.com/vercel/workflow/commit/4a43e39fec61519a2756f4f5e7bae5ccdac6f662)]:
+  - @workflow/core@5.0.0-beta.32
+  - @workflow/world-vercel@5.0.0-beta.28
+
+## 5.0.0-beta.31
+
+### Patch Changes
+
+- Updated dependencies [[`7a1ea5a`](https://github.com/vercel/workflow/commit/7a1ea5a45afd07601934a2f3ff1d1044f3bd9db8), [`0b956f6`](https://github.com/vercel/workflow/commit/0b956f65cb0ab30501c72e934fc8d4352c4c3ea2)]:
+  - @workflow/world-local@5.0.0-beta.27
+  - @workflow/core@5.0.0-beta.31
+  - @workflow/errors@5.0.0-beta.10
+  - @workflow/world-vercel@5.0.0-beta.27
+
 ## 5.0.0-beta.30
 
 ### Patch Changes

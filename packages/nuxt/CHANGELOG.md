@@ -1,5 +1,45 @@
 # @workflow/nuxt
 
+## 5.0.0-beta.35
+
+### Patch Changes
+
+- Updated dependencies [[`3589958`](https://github.com/vercel/workflow/commit/35899580bd2a1b6eb2817f04583139dcee4ffd2a), [`a00d169`](https://github.com/vercel/workflow/commit/a00d16947085f8e94cf191c4d8850121cf201a94), [`c44b4f8`](https://github.com/vercel/workflow/commit/c44b4f8586a159e4deb5ec947e1855d80cc2680d)]:
+  - @workflow/nitro@5.0.0-beta.35
+  - @workflow/builders@5.0.0-beta.35
+
+## 5.0.0-beta.34
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @workflow/builders@5.0.0-beta.34
+  - @workflow/nitro@5.0.0-beta.34
+
+## 5.0.0-beta.33
+
+### Patch Changes
+
+- Updated dependencies [[`a4d8de0`](https://github.com/vercel/workflow/commit/a4d8de03e6381d170ccf0c76ed77e05dc5545456)]:
+  - @workflow/builders@5.0.0-beta.33
+  - @workflow/nitro@5.0.0-beta.33
+
+## 5.0.0-beta.32
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @workflow/builders@5.0.0-beta.32
+  - @workflow/nitro@5.0.0-beta.32
+
+## 5.0.0-beta.31
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @workflow/builders@5.0.0-beta.31
+  - @workflow/nitro@5.0.0-beta.31
+
 ## 5.0.0-beta.30
 
 ### Patch Changes
