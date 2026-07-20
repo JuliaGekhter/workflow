@@ -1,5 +1,11 @@
 # @workflow/world-vercel
 
+## 5.0.0-beta.32
+
+### Patch Changes
+
+- [#2951](https://github.com/vercel/workflow/pull/2951) [`6f032d7`](https://github.com/vercel/workflow/commit/6f032d73fee8103b6cfcd69713f3e87cf8e19140) Thanks [@karthikscale3](https://github.com/karthikscale3)! - Decode stable-line CBOR structured errors when reading v4 workflow events while preserving current serialized error payloads.
+
 ## 5.0.0-beta.31
 
 ### Minor Changes
