@@ -44,8 +44,8 @@ jobs:
 
         run: |
           if [ -z "$SLACK_BOT_TOKEN" ] || [ -z "$SLACK_ISSUE_SUMMARY_CHANNEL_ID" ]; then
-            echo "Missing Slack secrets: SLACK_BOT_TOKEN and/or SLACK_ISSUE_SUMMARY_CHANNEL_ID"
-            exit 1
+            echo "Slack secrets not configured (SLACK_BOT_TOKEN and/or SLACK_ISSUE_SUMMARY_CHANNEL_ID are missing). Skipping digest."
+            exit 0
           fi
 
           node scripts/issue-digest.mjs --post
