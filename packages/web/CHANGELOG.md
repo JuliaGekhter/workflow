@@ -1,5 +1,7 @@
 # @workflow/web
 
+## 5.0.0-beta.36
+
 ## 5.0.0-beta.35
 
 ### Patch Changes
